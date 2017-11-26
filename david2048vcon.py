@@ -159,7 +159,6 @@ def randomfill(TABLE):
         TABLE[w // 4][w % 4] = 2
     return TABLE
 
-
 def key(DIRECTION, TABLE):
     score = 0
     if DIRECTION == 0: #w
